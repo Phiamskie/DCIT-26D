@@ -1,0 +1,47 @@
+
+
+<html>
+<head>
+<style>
+input {
+  font-size: 20px;
+  height:50px;
+}
+.imagediv {
+	float:left;
+    margin-top:50px;
+}
+.imagediv .showonhover {
+	background:red;
+	padding:20px;
+	opacity:0.9;
+	color:white;
+	width: 100%;
+	display:block;	
+	text-align:center;
+	cursor:pointer;
+}
+</style>
+<script src="javascript.js"></script>
+
+</head>
+<body>
+<h2>Change the Plain
+  <input id="files-upload" type="file" multiple>
+  </p>
+</h2>
+
+<h3>To an image "click on the image below"</h3>
+<input type="file" id="file1" name="image" accept="image/*" capture style="display:none" />
+<img src="images/profile.png" id="upfile1" style="cursor:pointer" />
+</p>
+
+<div align="left" class="imagediv">
+  <span>Or click here</span>
+  <span class="visibleimg"></span>
+  <span class="showonhover">Choose Files</span>
+  <input id="selectfile" type="file" name="" style="display: none;" />
+</div>
+</body>
+
+</html>

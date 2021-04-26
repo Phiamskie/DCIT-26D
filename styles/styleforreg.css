@@ -1,0 +1,71 @@
+body{
+	background-color: #05445E;
+    color: #189AB4;
+	border: 5px 5px 5px 5px;
+	font-size: 15px;
+}
+.main-wrapper{
+	left: 15px;
+    height: auto;
+}
+#profile{
+    width: 250px;
+    height:250px;
+    padding-left: 40px;
+}
+#choosefile{
+    position: relative;
+    left: 130px;
+}
+input[type="text"] {
+    background-color:#D4F1F4; 
+	height: 30px;
+    width: 250px;
+
+}
+
+.basic-info{
+    position: relative;
+	top: 10px;
+    left: 15px;
+    width: 96%;
+    height: 400px;
+
+}
+.personalinfo{
+    position: relative;
+    left: 300px;
+    top: -300px;
+    padding-top: 30px;
+    width: fit-content;
+    background-color: white;
+   
+}
+.contactinfo{
+    position: relative;
+	top: 40px;
+    left: 15px;
+    width: 96%;
+    height:200px;
+}
+
+.addressinfo{
+    position: relative;
+	top: 60px;
+    left: 15px;
+    width: 96%;
+    height:300px;
+}
+legend{
+    font-size: 30px;
+}
+.btn{
+    position: relative;
+    top: 80px;
+    left: 15px;
+    background: #75E6DA;
+    font-size:30px;
+    color: white;
+    padding: 10px;
+    width: 350px;
+}
